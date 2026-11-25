@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Desk Wonder is a free wallpaper manager for Windows. Switch between images and videos right from your desktop. Download a single EXE and run it without installing.">
+  <meta name="theme-color" content="#0a0e2b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Desk Wonder | Wallpapers for Windows">
+  <meta property="og:description" content="Free wallpaper manager for Windows. Switch between images and videos right from your desktop. Single EXE, no installer.">
+  <meta name="twitter:card" content="summary">
+  <title>Desk Wonder | Wallpapers for Windows</title>
+  <link rel="icon" href="assets/desk-wonder.ico">
+  <link rel="stylesheet" href="style.css?v=v2">
+  <script src="site.js?v=v2" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="shell masthead">
+    <a class="wordmark" href="#top" aria-label="Desk Wonder home"><img class="brand-icon" src="assets/desk-wonder.png" width="32" height="32" alt="">Desk Wonder</a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#start">Getting started</a>
+      <a class="nav-download" href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="main" class="shell">
+    <section class="intro" aria-labelledby="hero-title">
+      <div>
+        <p class="label"><span class="square" aria-hidden="true"></span> Wallpaper manager for Windows</p>
+        <h1 id="hero-title">Your desk.<br><em>Your way.</em></h1>
+      </div>
+      <div class="intro-copy">
+        <p>Browse and switch wallpapers right from your desktop. With Desk Wonder, your favorite images and videos are one keyboard shortcut away.</p>
+        <a class="button" id="download" href="downloads/Desk-Wonder.exe" download data-download>Download for Windows</a>
+        <p class="metadata">Free <span>·</span> Single EXE <span>·</span> No installer</p>
+        <p class="integrity" role="note"><svg class="info-icon" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="10" cy="6" r="1.1" fill="currentColor"/></svg><span>Version 0.1.0 <span>·</span> Windows may show a SmartScreen warning because the EXE is not signed yet. Click <b>More info</b>, then <b>Run anyway</b>.</span></p>
+      </div>
+    </section>
+
+    <figure class="showcase" aria-label="Wallpaper picker preview">
+      <div class="showcase-top"><span><span class="square" aria-hidden="true"></span> Preview</span></div>
+      <div class="screen">
+        <video id="demo" autoplay loop muted playsinline poster="assets/showcase.webp" aria-label="Desk Wonder showcase" src="assets/showcase.mp4"></video>
+      </div>
+      <figcaption><span class="keys"><kbd>Ctrl</kbd><span>+</span><kbd>Alt</kbd><span>+</span><kbd>Shift</kbd><span>+</span><kbd>W</kbd></span></figcaption>
+    </figure>
+
+    <section id="features" class="feature-section" aria-labelledby="features-title">
+      <div class="section-heading"><p class="label"><span class="square" aria-hidden="true"></span> Features</p><h2 id="features-title">From folder <em>to desktop.</em></h2></div>
+      <div class="feature-layout">
+        <div class="library" role="group" aria-label="Desk Wonder screenshots">
+          <div id="library-slides">
+            <figure aria-hidden="false">
+              <img src="assets/screenshots-1.webp" width="1421" height="885" alt="Installed tab showing a grid of 20 wallpapers with Preview and Remove buttons">
+            </figure>
+            <figure aria-hidden="true">
+              <img src="assets/screenshots-2.webp" width="1421" height="885" loading="lazy" alt="Browse tab listing static wallpapers from Wallhaven with source and resolution filters">
+            </figure>
+            <figure aria-hidden="true">
+              <img src="assets/screenshots-3.webp" width="1421" height="885" loading="lazy" alt="Steam Workshop page with the ManifestDeX downloader built into Desk Wonder">
+            </figure>
+            <button type="button" class="library-arrow" id="library-prev" aria-label="Previous screenshot" hidden><span aria-hidden="true"></span></button>
+            <button type="button" class="library-arrow" id="library-next" aria-label="Next screenshot" hidden><span aria-hidden="true"></span></button>
+          </div>
+        </div>
+        <dl class="feature-list">
+          <div aria-current="true"><dt>Easy to use</dt><dd>Manage your wallpapers in the Installed tab, where you can import still images and animated wallpapers in formats like MP4.</dd></div>
+          <div><dt>Wallpaper browser</dt><dd>Browse Wallhaven and WallpaperFlare right in Desk Wonder. Filter by resolution, search using your own tags, and install wallpapers automatically with one click.</dd></div>
+          <div><dt>Wallpaper Engine support</dt><dd>Desk Wonder automatically detects and imports wallpapers installed by Wallpaper Engine. Download animated wallpapers from Steam Workshop through the built-in ManifestDeX downloader. Desk Wonder picks up the download and installs the wallpaper automatically.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="start" class="getting-started" aria-labelledby="start-title">
+      <div class="section-heading"><p class="label"><span class="square" aria-hidden="true"></span> Getting started</p><h2 id="start-title">Set up your <em>wallpaper library.</em></h2></div>
+      <ol class="steps">
+        <li><h3>Download and run</h3><p>Download the EXE for Windows 10 or 11 (x64) and run it from any folder. There is no installer, and .NET 10 is included. Browsing Steam Workshop needs the Microsoft Edge WebView2 Runtime. Most PCs already have it, so install it only if the Workshop page does not load.</p></li>
+        <li><h3>Add your wallpapers</h3><p>Look for the Desk Wonder icon in the system tray (it may be under the <b>^</b> arrow), right-click it and choose <b>Show Manager…</b>. In <b>Installed</b>, click <b>+ Add wallpapers</b> to import your own images and videos, or open <b>Browse</b> to get new ones from Wallhaven, WallpaperFlare and Steam Workshop. Wallpapers from Wallpaper Engine are detected automatically.</p></li>
+        <li><h3>Switch in a keystroke</h3><p>Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> to open the picker. Scroll the mouse wheel or drag to browse, then click a wallpaper to apply it. Click outside the cards to close. The keyboard works too: arrow keys or <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> to browse, <kbd>Enter</kbd> to apply, <kbd>Esc</kbd> to close. You can change the shortcut in <b>Settings</b>.</p></li>
+      </ol>
+    </section>
+
+    <details class="formats"><summary>Supported formats and requirements</summary><p>Desk Wonder supports JPG, JPEG, PNG, BMP, WebP, and JFIF images, as well as MP4, M4V, MOV, and WebM video. Video playback depends on the codecs installed in Windows. The Workshop browser requires Microsoft Edge WebView2.</p><p>Desk Wonder checks GitHub for a newer version when it starts and when you open the Manager. The wallpaper browsers contact Wallhaven, WallpaperFlare and ManifestDeX only when you use them. Nothing else leaves your PC except what any web request reveals, such as your IP address.</p></details>
+  </main>
+
+  <footer class="shell footer"><a class="wordmark" href="#top"><img class="brand-icon" src="assets/desk-wonder.png" width="32" height="32" alt="">Desk Wonder</a><a href="https://github.com/Proximax1">Made by Proximax01</a></footer>
+</body>
+</html>
